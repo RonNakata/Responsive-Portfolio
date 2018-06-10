@@ -219,6 +219,9 @@ input[type=submit] {
 
 
 @media screen and (max-width: 980px) {
+  .work{
+    width: 45%;
+  }
   .main-section{
     width: 66%;
   }
@@ -228,20 +231,34 @@ input[type=submit] {
   .work{
     width: 45%;
   }
-
+  .main-section{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 640px) {
+  .main-section{
+    width: 100%;
+  }
   #masthead{
     position: static;
   }
   #main-container {
     padding-top: 20px;
+    width: 100%;
   }
   .auth-image {
       width: 100%;
   }
   .work {
     width: 100%;
+  }
+  #logo {
+    width: 100%;
+  }
+  nav {
+    width: 107%;
+    text-align: center;
+    margin: 0;
   }
 }
